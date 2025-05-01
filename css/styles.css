@@ -1,0 +1,153 @@
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+:root {
+	--azul: #0f0056;
+	--amarillo: #EFB810;
+	--blanco: #ffffff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans", sans-serif;
+	scroll-behavior: smooth;
+}
+
+img {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.titulo {
+	font-size: 18pt;
+	color: var(--azul);
+	font-weight: 800;
+	margin-bottom: 50px;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+.seccion {
+	padding: 50px 0;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.banner-principal {
+	width: 100%;
+	background-color: var(--azul);
+}
+
+.quienes-somos .texto {
+	padding: 0 50px;
+	text-align: justify;
+}
+
+.quienes-somos .texto, .quienes-somos img {
+	width: 50%;
+}
+
+.valores {
+	max-width: 100%;
+	background-color: var(--azul);
+	color: var(--blanco);
+}
+
+.valores .info-valores {
+	max-width: 1000px;
+	align-items: flex-start;
+}
+
+.valores .info-valores .titulo {
+	color: var(--amarillo);
+}
+
+.valores .info-valores .texto-valores {
+	padding: 20px;
+	text-align: justify;
+}
+
+.contenedor-planes {
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.plan {
+	width: 25%;
+	font-size: 10pt;
+	justify-content: center;
+	border-radius: 15px;
+	color: #fff;
+	padding: 25px;
+	align-items: center;
+}
+
+.plan:hover {
+	width: 25.5%;
+	height: 100.5%;
+	transition: 0.08s;
+}
+
+.plan ul {
+	padding: 0;
+	display: inline-block;
+	margin-left: 30%;
+	transform: translateX(-30%);
+}
+
+.plan ul li {
+	margin-bottom: 15px;
+}
+
+.asistencia {
+	background-color: #08678C;
+}
+
+.pase-gol {
+	background-color: #085A8C;
+}
+
+.pase-maestro {
+	background-color: #023059;
+}
+
+.plan .titulo {
+	text-align: center;
+	color: var(--blanco);
+	margin-bottom: 25px;
+}
+
+.plan .boton {
+	background-color: var(--amarillo);
+	padding: 10px 20px;
+	border-radius: 50px;
+	font-weight: 800;
+	color: var(--azul);
+	margin-top: 15px;
+}
+
